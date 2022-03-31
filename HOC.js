@@ -28,6 +28,13 @@ function withMouse(WrappedComponent){
     )
   }
   }
+  //set displayName
+  Mouse.displayName = `WithMouse${getDisplayName(WrappedComponent)}`
+  
+  function getDisplayName(WrappedComponent){
+    return WrappedComponent.displayName || WrappedComponent.name || 'Component'
+  }
+
   return Mouse  
 }
 
