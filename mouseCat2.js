@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
+import PropTypes from 'prop-types'
 import img from './images/cat.png'
 
 class App extends Component{
@@ -49,6 +50,10 @@ class Mouse extends Component{
     return this.props.children(this.state)
   }
 }
+Mouse.propTypes = {
+  children: PropTypes.func.isRequired
+}
+//dont remember to add [import PropTypes from 'prop-types']
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
