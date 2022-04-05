@@ -5,3 +5,4 @@ read me:
 4. mouseCat.js -> 组件复用-猫抓老鼠-实时获取鼠标坐标；
 5. mouseCat2.js -> 用children属性代替render props；且给props添加校验；
 6. HOC.js -> 高阶组件初学习；
+7. Ref.js -> ref的用法；
