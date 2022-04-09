@@ -7,3 +7,4 @@ read me:
 6. HOC.js -> 高阶组件初学习；
 7. Ref.js -> ref的用法；
 8. todolist_01.js -> 只有功能没有样式；
+9. cinemaSearch.js -> 影院模糊查询功能；
