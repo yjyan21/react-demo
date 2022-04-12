@@ -8,4 +8,5 @@ read me:
 7. Ref.js -> ref的用法；
 8. todolist_01.js -> 只有功能没有样式；
 9. cinemaSearch.js -> 影院模糊查询功能；
-10. props.js -> 组件属性的默认值和校验
+10. props.js -> 组件属性的默认值和校验;
+11. P29.js -> P29课程，函数式组件传属性；
